@@ -13,39 +13,46 @@
   <script src="https://kit.fontawesome.com/c62d6ad68a.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  <header class="header">
-    <span class="header--icon"><i class="fa-brands fa-twitter"></i></span>
-  </header>
-  <main class="main--container">
-    <div>
-      <section class="main--titles">
-        <h1 class="main--title">Lo que está pasando ahora</h1>
-        <h2 class="main--title">Únete a Twitter hoy mismo</h2>
-      </section>
-      <section class="main--buttons">
-        <button class="main--button main--button__white">
-          <span><img class="main--button__icon-google main--button__icon" width="13" src="./assets/icons/buscar.png" alt=""></span>
-          Registrarse con google
-        </button>
-        <button class="main--button main--button__white">
-          <span><i class="fa-brands fa-apple main--button__icon-apple main--button__icon"></i></span>
-          Registrarse con Apple
-        </button>
-        <div><span>o</span></div>
-        <button class="main--button main--button__blue">Registrate con el numero de telefono</button>
-        <p class="main--text">
-          Al registrarte, aceptas los <a href="#">Términos de servicio</a> y la <a href="#">Política de privacidad</a>, incluida la política de <a href="#">Uso de Cookies</a>.
-        </p>
-        <h3 class="main--question-login">¿Ya tienes cuenta?</h3>
-        <button class="main--button main--button__white">
-          Iniciar Sesión
-        </button>
-      </section>
+  <div class="layout">
+    <div class="layout--container">
+      <main class="main--container">
+        <span class="main--icon"><i class="fa-brands fa-twitter"></i></span>
+          <div class="main--title__primary">
+            <h1 class="main--title">Lo que está pasando ahora</h1>
+          </div>
+          <div class="main--title__secundary">
+            <h2 class="main--title">Únete a Twitter hoy mismo</h2>
+          </div>
+          <section class="main--buttons">
+            <div class="main--button__google">
+              <button class="main--button main--button__white">
+                <span><img class="main--button__icon-google main--button__icon" width="13" src="./assets/icons/buscar.png" alt=""></span>
+                Registrarse con Google
+              </button>
+            </div>
+            <div class="main--button__apple">
+              <button class="main--button main--button__white">
+                <span><i class="fa-brands fa-apple main--button__icon-apple main--button__icon"></i></span>
+                Registrarse con Apple
+              </button>
+            </div>
+            <div class="main--button__divisor">
+              <div></div>
+              <span>o</span>
+              <div></div>
+            </div>
+            <button class="main--button main--button__blue">Registrate con el numero de telefono ...</button>
+            <p class="main--text">
+              Al registrarte, aceptas los <a href="#">Términos de servicio</a> y la <a href="#">Política de privacidad</a>, incluida la política de <a href="#">Uso de Cookies</a>.
+            </p>
+            <h3 class="main--question-login">¿Ya tienes cuenta?</h3>
+            <button class="main--button main--button__white main--button__text-blue">
+              Iniciar Sesión
+            </button>
+          </section>
+      </main>
     </div>
-    <div>
-      
-    </div>
-  </main>
+  </div>
 
 </body>
 </html>
