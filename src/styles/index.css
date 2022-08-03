@@ -10,13 +10,15 @@
 
 .main--icon {
   color: var(--brand--color);
-  font-size: 40px;
+  font-size: 42px;
+  display: flex;
+  width: min-content;
+  padding-bottom: 12px;
 }
 
 .main--container {
   padding: 20px;
   display: flex;
-  min-height: 100vh;
   flex-direction: column;
   justify-content: space-between;
 }
@@ -31,7 +33,7 @@
   margin: 38px 0;
 }
 .main--title__primary h1 {
-  font-size: 38px;
+  font-size: 40px;
   line-height: 1.2;
 }
 
@@ -39,7 +41,7 @@
   margin-bottom: 19px;
 }
 .main--title__secundary h2 {
-  font-size: 23px;
+  font-size: 22px;
 }
 
 .main--buttons {
@@ -58,6 +60,7 @@
   border-radius: 30px;
   width: 100%;
   max-width: 300px;
+  min-width: 300px;
   cursor: pointer;
 }
 .main--button:hover {
@@ -65,14 +68,10 @@
   transition: .1s;
 }
 .main--button__white {
-  border: 1px solid #d0cbcb8f;
+  border: 1px solid rgba(83, 100, 113, 0.227);
   background-color: #fff;
 }
 
-.main--button__blue {
-  background-color: var(--brand--color);
-  color: #fff;
-}
 .main--button__icon {
   margin-right: 8px;
 }
@@ -82,19 +81,22 @@
 .main--button__google > .main--button {
   color: #686868;
 }
-.main--button__icon-google  {
+.main--button__icon-google {
+  display: flex;
+}
+.main--button__icon-google > img  {
   width: 17px;
   height: 17px;
 }
 .main--button__icon-apple {
-  font-size: 23px;
+  font-size: 20px;
 }
 .main--button__divisor {
   width: 100%;
   max-width: 300px;
-  height: 17px;
+  height: 27px;
   display: flex;
-  margin: 9px 0;
+  margin: 4px 0;
   align-items: center;
 }
 .main--button__divisor > div {
@@ -107,20 +109,39 @@
   font-size: 14px;
   margin: 0 4px;
 }
-
-.main--text {
-  font-size: 13px;
-  margin-bottom: 30px;
-  color: #686868;
+.main--button__blue {
+  background-color: var(--brand--color);
+  color: #fff;
+  text-overflow: ellipsis;
+  margin-bottom: 8px;
 }
-.main--text > a {
+
+.main--text > p{
+  font-size: 10px;
+  line-height: 11px;
+  margin-bottom: 15px;
+  color: rgb(83, 100, 113);
+  font-family: 'TwitterChirp';
+  max-width: 300px;
+}
+.main--text > p > a {
   color: var(--brand--color);
 }
-.main--question-login {
+.main--section-login {
   font-size: 15px;
   text-align: start;
   width: 100%;
-  padding: 20px 0 5px;
+  margin-top: 38px;
+  margin-bottom: 8px;
+}
+.main--section-login__question {
+  margin-bottom: 15px;
+}
+.main--section-login__question > span {
+  font-family: 'TwitterChirp';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
 }
 .main--button__text-blue {
   color: var(--brand--color);

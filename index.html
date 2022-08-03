@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./assets/icons/favicon.svg" type="image/x-icon">
   <title>Twitter Clone</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,42 +18,53 @@
     <div class="layout--container">
       <main class="main--container">
         <span class="main--icon"><i class="fa-brands fa-twitter"></i></span>
-          <div class="main--title__primary">
-            <h1 class="main--title">Lo que está pasando ahora</h1>
+        <div class="main--title__primary">
+          <h1 class="main--title">Lo que está pasando ahora</h1>
+        </div>
+        <div class="main--title__secundary">
+          <h2 class="main--title">Únete a Twitter hoy mismo</h2>
+        </div>
+        <section class="main--buttons">
+          <div class="main--button__google">
+            <button class="main--button main--button__white">
+              <span class="main--button__icon-google"><img class="main--button__icon" src="./assets/icons/buscar.png" alt=""></span>
+              Registrarse con Google
+            </button>
           </div>
-          <div class="main--title__secundary">
-            <h2 class="main--title">Únete a Twitter hoy mismo</h2>
+          <div class="main--button__apple">
+            <button class="main--button main--button__white">
+              <span><i class="fa-brands fa-apple main--button__icon-apple main--button__icon"></i></span>
+              Registrarse con Apple
+            </button>
           </div>
-          <section class="main--buttons">
-            <div class="main--button__google">
-              <button class="main--button main--button__white">
-                <span><img class="main--button__icon-google main--button__icon" width="13" src="./assets/icons/buscar.png" alt=""></span>
-                Registrarse con Google
-              </button>
-            </div>
-            <div class="main--button__apple">
-              <button class="main--button main--button__white">
-                <span><i class="fa-brands fa-apple main--button__icon-apple main--button__icon"></i></span>
-                Registrarse con Apple
-              </button>
-            </div>
-            <div class="main--button__divisor">
-              <div></div>
-              <span>o</span>
-              <div></div>
-            </div>
-            <button class="main--button main--button__blue">Registrate con el numero de telefono ...</button>
-            <p class="main--text">
+          <div class="main--button__divisor">
+            <div></div>
+            <span>o</span>
+            <div></div>
+          </div>
+          <button class="main--button main--button__blue">Registrate con el numero de telefono...</button>
+          <div class="main--text">
+            <p>
               Al registrarte, aceptas los <a href="#">Términos de servicio</a> y la <a href="#">Política de privacidad</a>, incluida la política de <a href="#">Uso de Cookies</a>.
             </p>
-            <h3 class="main--question-login">¿Ya tienes cuenta?</h3>
+          </div>
+          <div class="main--section-login">
+            <div class="main--section-login__question">
+              <span>¿Ya tienes una cuenta?</span>
+            </div>
             <button class="main--button main--button__white main--button__text-blue">
-              Iniciar Sesión
+              Iniciar sesión
             </button>
-          </section>
+          </div>
+        </section>
+        <section class="main--background">
+    
+        </section>
       </main>
     </div>
   </div>
-
+  <footer>
+    <p>Acerca de</p>
+  </footer>
 </body>
 </html>
