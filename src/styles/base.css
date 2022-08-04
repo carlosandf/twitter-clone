@@ -59,7 +59,5 @@ ul {
 body {
   font-family: 'TwitterChirpExtendedHeavy';
   min-height: 90vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+
 }
