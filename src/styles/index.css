@@ -42,7 +42,7 @@
 }
 
 .main--title__secundary {
-  margin-bottom: 1.9rem;
+  margin-bottom: 1rem;
 }
 .main--title__secundary h2 {
   font-size: 2.2rem;
@@ -66,6 +66,9 @@
   max-width: 30rem;
   min-width: 30rem;
   cursor: pointer;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
 }
 .main--button:hover {
   box-shadow: 0 0 5px #d0cbcb8f;
@@ -98,7 +101,7 @@
 .main--button__divisor {
   width: 100%;
   max-width: 30rem;
-  height: 2.7rem;
+  height: 2.3rem;
   display: flex;
   margin: .4rem 0;
   align-items: center;
@@ -116,7 +119,6 @@
 .main--button__blue {
   background-color: var(--brand--color);
   color: #fff;
-  text-overflow: ellipsis;
   margin-bottom: .8rem;
 }
 
@@ -136,11 +138,11 @@
   font-size: 1.5rem;
   text-align: start;
   width: 100%;
-  margin-top: 4rem;
-  margin-bottom: .8rem;
+  margin-top: 1rem;
+  margin-bottom: 0.8rem;
 }
 .main--section-login__question {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.1rem;
 }
 .main--section-login__question > span {
   font-family: 'TwitterChirp';
@@ -217,7 +219,7 @@
     justify-content: flex-end;
   }
   .main--title__primary {
-    margin: 5rem 0;
+    margin: .2rem 0;
   }
   .main--background {
     width: 25%;
@@ -226,9 +228,12 @@
   .main--icon__background {
     font-size: 20rem;
   }
+  .footer {
+    min-height: 9vh;
+  }
 
 }
-@media(min-width: 1230px) {
+@media(min-width: 1200px) {
   .main--background {
     width: 45%;
   }
